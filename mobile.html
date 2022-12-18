@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <link href = "mobile.css" rel="stylesheet" type = "text/css"/>
+    </head>
+    <body>
+        <div class = "mainb" id = "align"></div>
+        <div class = "main">
+
+            <div class = "speaker">
+                <p class = "dot1"></p>
+                <p  class = "dot2"></p>
+            </div>
+
+            <div class = "outer">
+                <div class = "inner" id = "disp">
+                    <div class = "container">
+                        <span id = "hours">00</span>
+                        <span>:</span>
+                        <span id = "minutes">00</span>
+                        <!--<span>:</span>
+                        <span id = "seconds">00</span>-->
+                        <span id = "session">AM</span>
+                    </div>
+                    <div class = "down">
+                    <img src = "call.png"onmouseover = "fun0(this)" onmouseleave="my0(this)"/>
+                    <img src = "msg.png"onmouseover = "fun0(this)" onmouseleave="my0(this)"/>
+                    <a href = "https://www.google.co.in/" target="_blank"><img src = "b.jpeg" style = "border-radius:14px" id = "browser" onmouseover = "fun0(this)" onmouseleave="my0(this)"/></a>
+                    <img src = "download (1).jpeg " style = "border-radius:14px" id = "camera" onmouseover = "fun0(this)" onmouseleave="my0(this)"/>
+                    
+                    <div class = "row1">
+                    <img src = "unnamed.png" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)" class = "row1"/>
+                    <img src = "images (7).jpeg" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)"class = "row1"/>
+                    <a href = "https://play.google.com/store/games?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700065205026376_creativeid_535350509651_device_c&gclid=EAIaIQobChMI48uqwfKC_AIVTYNLBR1jqwnaEAAYASAAEgLT4fD_BwE&gclsrc=aw.ds" target="_blank"><img src = "p1.png" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)" class = "row1"/></a>
+                    <a href = "https://accounts.google.com/v3/signin/identifier?dsh=S386194215%3A1671357318742897&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh5F13_MOe1fycQGNQkGS7PUmhMvorxKPys57diYxF8jIDrFuHkuzXyRV_tbK5B15ea_iNnGlw" target="_blank"><img src = "g.png" style = "border-radius:12px" onmouseover = "fun0(this)" onmouseleave="my0(this)" class = "row1"/></a>
+                    </div>
+                    <div class = "row2">
+                    <img src = "images.jpeg" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)" class = "row2"/>
+                    <img src = "c1.png" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)"class = "row2"/>
+                    <a href = "chrome://settings/" target="_blank"><img src = "images (3).png" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)" class = "row2"/></a>
+                    <a href = "https://www.whatsapp.com/" target="_blank"><img src = "images (6).png" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)" class = "row2"/></a>
+                    </div>
+                    <div class = "row3">
+                    <a href = "https://www.youtube.com/" target = "_blank"><img src = "images (5).png" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)" class = "row3"/></a>    
+                    <a href = "https://www.jiosaavn.com/" target="_blank"><img src = "images (7).jpeg" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)"class = "row3"/></a>
+                    <a href = "https://zoom.earth/" target = "_blank"><img src = "images (8).jpeg" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)" class = "row3"/></a>
+                    <a href = "https://pay.google.com/intl/en_in/about/" target="_blank"><img src = "googlepay.png" style = "border-radius:10px" onmouseover = "fun0(this)" onmouseleave="my0(this)" class = "row3"/></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+         <div class = "but1"><button onclick = "fun()">p</button></div>
+         <div class = "but2"><button onclick = "fun1()">s</button></div>
+        </div>
+        <div class ="inner1" id = "align2"></div>
+        <script>
+            var img = document.getElementById("disp");
+            var al = document.getElementById("align");
+            var al2 = document.getElementById("align2");
+            function fun()
+            {
+                img.style.display = "block";
+                al.style.transform = "translateX(-7px)";
+                al2.style.marginLeft = "290px";
+                 
+            }
+            var img = document.getElementById("disp");
+            function fun1()
+            {
+                img.style.display = "none";
+                img.style.transition = "0.2s";
+                al.style.transform = "translateX(1px)";
+                al2.style.marginLeft = "297px"
+            }
+            function fun0(a)
+            {
+                a.style.transform = "translateY(-14px)";
+                a.style.transition = "0.4s";
+            }
+            function my0(aa)
+            {
+                aa.style.transform = "translateY(0)";
+                aa.style.transition = "0.4s";
+            }
+
+            function displayTime()
+            {
+                var dateTime = new Date();
+                var hrs = dateTime.getHours();
+                var min = dateTime.getMinutes();
+                var sec = dateTime.getSeconds();
+                var ses = document.getElementById("session");
+                if(hrs>12)
+                {
+                    ses.innerHTML = "PM";
+                }
+                else{
+                    ses.innerHTML = "AM";
+                }
+                if(hrs>12)
+                {
+                    hrs = hrs-12;
+                }
+
+			min = min < 10 ? "0" + min : min;
+			sec = sec < 10 ? "0" + sec : sec;
+			let currentTime = hrs + ":"
+				+ min + ":" + sec + ses;
+ 
+                document.getElementById("hours").innerHTML = hrs;
+                document.getElementById("minutes").innerHTML = min;
+                document.getElementById("seconds").innerHTML = sec;
+            }
+            setInterval(displayTime,10);
+
+            
+            
+        </script>
+       
+    
+    </body>
+</html>
