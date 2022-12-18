@@ -1,0 +1,120 @@
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;}
+
+
+body{transform:translateX(160px)}
+.outer{border:none;
+       width:360px;
+        height:600px;
+        border-radius:25px;
+         margin:60px 281px;}
+
+.inner{border:1px solid black;
+       width:330px;
+        height:538px;
+        margin:13px 14px;
+        border-radius:13px;
+        background:#fff;
+        position:absolute;
+         z-index:1}
+.speaker{border:1px solid black;
+        width:95px;
+        height:11px;
+         border-radius:15px;
+         margin:8 140;
+         border-top:4px solid black;
+         background:white;}
+
+.dot1{border:1px solid black;}
+
+.but1 button{width:12px;
+       height:60px;
+       margin:-540px 633px;
+       border-radius:10px;}
+button:hover{background-color:red;transition:0.2s;color:white;}
+button:active{background-color:green;transform: translateX(-3px);}
+
+.inner{background-image:url("img.jpg");background-repeat: no-repeat;
+      background-position:center;
+      background-size:cover;
+      display: none;
+      }
+
+.inner1{border:1px solid black;
+        width:329px;
+         height:538px;
+         margin:-647px 297px;
+         border-radius:13px;
+         background:black;}
+
+.mainb{border:1px solid black;
+        width:360px;
+         height:600px;
+         border-radius:25px;
+        margin:-14px 282;
+        background-image:url("gold.jpg");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+         position:absolute;
+        z-index:-1;}
+.but2 button{margin:-466px 633px;
+        width:12px;
+        height:60px;
+        border-radius:10px;
+        }
+.inner img{width:55px;
+           margin:455 10px;
+            cursor: pointer;
+            }
+.down{margin-left:9px;
+      margin-top:-103px}
+
+.inner .row1{margin-top:-300;}
+#browser{padding:3px;}
+#camera{padding:3px;}
+.row1 img{padding:3;}
+
+.inner .row2{margin-top:-298;}
+.row2 img{padding:3;}
+
+.inner .row3{margin-top:-298;}
+.row3 img{padding:3;}
+
+.container{color:white;
+           font-size:55px;
+          text-align:center;
+           margin-top:40px;
+           }
+
+#session{font-size:17px;
+         position:absolute;
+          top:13%;
+          padding:0 6px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
